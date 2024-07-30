@@ -7,12 +7,12 @@ import './index.css'
 
 const router = createBrowserRouter([
 	{
-		path: '/',
+		path: '/CountriesTestTask',
 		element: <App />,
 		errorElement: <p>404 Not Found</p>,
 	},
 	{
-		path: '/country/:id',
+		path: '/CountriesTestTask/country/:id',
 		element: <CountrieDetail />,
 	},
 	// {
